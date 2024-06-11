@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraficoC", "GraficoC\GraficoC.csproj", "{F22A56E1-0F95-49F2-A339-33AC015E3127}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F22A56E1-0F95-49F2-A339-33AC015E3127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F22A56E1-0F95-49F2-A339-33AC015E3127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F22A56E1-0F95-49F2-A339-33AC015E3127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F22A56E1-0F95-49F2-A339-33AC015E3127}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {035E21EB-1C28-4CB4-A432-B2EEA8FF3298}
+	EndGlobalSection
+EndGlobal
