@@ -46,6 +46,7 @@
             button15 = new Button();
             button16 = new Button();
             label1 = new Label();
+            button17 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -210,9 +211,9 @@
             // 
             button16.Location = new Point(517, 172);
             button16.Name = "button16";
-            button16.Size = new Size(89, 24);
+            button16.Size = new Size(38, 24);
             button16.TabIndex = 16;
-            button16.Text = "AC";
+            button16.Text = "<-";
             button16.UseVisualStyleBackColor = true;
             button16.Click += button16_Click;
             // 
@@ -224,12 +225,24 @@
             label1.Size = new Size(38, 15);
             label1.TabIndex = 17;
             label1.Text = "label1";
+            label1.Click += label1_Click;
+            // 
+            // button17
+            // 
+            button17.Location = new Point(561, 171);
+            button17.Name = "button17";
+            button17.Size = new Size(45, 23);
+            button17.TabIndex = 18;
+            button17.Text = "AC";
+            button17.UseVisualStyleBackColor = true;
+            button17.Click += button17_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button17);
             Controls.Add(label1);
             Controls.Add(button16);
             Controls.Add(button15);
@@ -274,5 +287,6 @@
         private Button button15;
         private Button button16;
         private Label label1;
+        private Button button17;
     }
 }
